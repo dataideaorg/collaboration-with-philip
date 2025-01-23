@@ -1,7 +1,6 @@
 print('hello, world!')
 
-age = 18
-
+# removed age
 if age >= 18:
     print('allowed')
 else:
