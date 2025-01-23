@@ -1,7 +1,12 @@
 print('hello, world!')
 
 # removed age
-if age >= 18:
-    print('allowed')
-else:
-    print('not allowed')
+def check_eligibility(age,name):
+    if age >= 18:
+        print(name + ' allowed')
+    else:
+        print(name + ' not allowed')
+        
+check_eligibility(16, "john")
+
+        
